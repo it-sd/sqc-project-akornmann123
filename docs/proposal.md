@@ -19,5 +19,5 @@ Web Service
 > they can race on.
 
 ### Initial Designs ######
-![Sample Layout]("C:\Users\Arian\OneDrive\Documents\CVTC\SQC\sqc-project-akornmann123\docs\SampleLayout.png")
-![Site Map]("C:\Users\Arian\OneDrive\Documents\CVTC\SQC\sqc-project-akornmann123\docs\Sitemap.png")
+![Sample Layout](C:\Users\Arian\OneDrive\Documents\CVTC\SQC\sqc-project-akornmann123\docs\SampleLayout.png)
+![Site Map](C:\Users\Arian\OneDrive\Documents\CVTC\SQC\sqc-project-akornmann123\docs\Sitemap.png)
