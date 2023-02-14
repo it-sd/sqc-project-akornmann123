@@ -1,5 +1,5 @@
-# Animal Crossing: New Horizons
+# IUCN Red List of Threatened Species
 Arianne Kornmann
 
-This site will allow users to store different aspects of the game such as sea creatures, furniture, bugs, fossils, and more.
+This site will keep track of the threatened species around the world. 
 
