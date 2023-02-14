@@ -1,23 +1,26 @@
-Mario Kart Tour
+Red List of Threatened Species
 ===============
 
-> For the website I chose to do my project on is Mario Kart Tour. 
-> I will include data for karts which will branch out into gliders and wheels
-> that you can add to your kart. Also, data for characters and maps.
+> The site I chose to do my project on is IUCN Red List of Threatened Species.
+> This site keeps track of different information about the species that are in danger.
+> I will include data such as the Country and/or Region the endagered species are located, 
+> the endagered species themselves, and the habitats of the species. 
 
 Web Service
 -----------
-[Mario Kart Tour](https://mariokarttour.com/en-US) OAuth (verison not available)
+[IUCN Red List of Threatened Species](http://apiv3.iucnredlist.org/api/v3/docs) apiKey (v3)
+1. (GET species by country) /api/v3/country/getspecies/:country?token='YOUR TOKEN'
+2. (GET records of all species) /api/v3/species/page/:page_number?token='YOUR TOKEN'
+3. (GET individual species) /api/v3/species/:name?token='YOUR TOKEN'
+4. (GET historical assessments by species) /api/v3/species/history/name/:name?token='YOUR TOKEN'
+5. (GET threats by species) /api/v3/threats/species/name/:name?token='YOUR TOKEN'
+6. (GET habitats by species) /api/v3/habitats/species/name/:name?token='YOUR TOKEN'
 
 ### Database Use ######
-> First table I will be creating is the "karts" table. This will keep 
-> track of all the karts. Branching from the karts table will be "gliders"
-> and "wheels". These tables are what you can pick to put on your kart. Those
-> two tables will keep track of all the gliders and all the wheels.
-> I will have a "characters" table which will keep track of the characters.
-> Lastly, I will have a "maps" table that will keep track of all the maps
-> they can race on.
+> The tables I plan on making is a species table, country table, individual species table, history table,
+> threats table, and habitats table. The "Species" table will be the main table. All of the others will branch off of the main
+> "Species" table because the tables are all based on the species. For example, the "country" table will represent the endagered species by country.
 
 ### Initial Designs ######
-![Sample Layout](C:\Users\Arian\OneDrive\Documents\CVTC\SQC\sqc-project-akornmann123\docs\SampleLayout.png)
-![Site Map](C:\Users\Arian\OneDrive\Documents\CVTC\SQC\sqc-project-akornmann123\docs\Sitemap.png)
+![Sample Layout]()
+![Site Map]()
