@@ -1,10 +1,10 @@
 Red List of Threatened Species
 ===============
 
-> The site I chose to do my project on is IUCN Red List of Threatened Species.
-> This site keeps track of different information about the species that are in danger.
-> I will include data such as the Country and/or Region the endagered species are located, 
-> the endagered species themselves, and the habitats of the species. 
+The site I chose to do my project on is IUCN Red List of Threatened Species.
+This site keeps track of different information about the species that are in danger.
+I will include data such as the Country and/or Region the endagered species are located, 
+the endagered species themselves, and the habitats of the species. 
 
 Web Service
 -----------
@@ -17,10 +17,10 @@ Web Service
 6. (GET habitats by species) /api/v3/habitats/species/name/:name?token='YOUR TOKEN'
 
 ### Database Use ######
-> The tables I plan on making is a species table, country table, individual species table, history table,
-> threats table, and habitats table. The "Species" table will be the main table. All of the others will branch off of the main
-> "Species" table because the tables are all based on the species. For example, the "country" table will represent the endagered species by country.
+The tables I plan on making is a species table, country table, individual species table, history table,
+threats table, and habitats table. The "Species" table will be the main table. All of the others will branch off of the main
+"Species" table because the tables are all based on the species. For example, the "country" table will represent the endagered species by country.
 
 ### Initial Designs ######
-![Sample Layout]()
-![Site Map]()
+![Sample Layout](C:\Users\Arian\OneDrive\Documents\CVTC\SQC\sqc-project-akornmann123\docs\SampleLayout.png)
+![Site Map](C:\Users\Arian\OneDrive\Documents\CVTC\SQC\sqc-project-akornmann123\docs\Sitemap.png)
