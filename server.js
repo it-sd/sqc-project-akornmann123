@@ -18,3 +18,29 @@ app.get('/about', (req, res) => {
            + 'For example, they can be categorized by country, habitat, threats, and individual species.')
 })
   
+// Add other routes
+
+fetch("schema.sql")
+  .then((reponse) => reponse.json())
+  .then((data) => console.log(data));
+
+async function postData(url = "", data = {}) {
+  const reponse = await fetch(url, {
+    method: "POST",
+    mode: "cors",
+    cache: "no-cache",
+    credentials: "same-origin",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    redirect: "follow",
+    referrerPolicy: "no-referrer",
+    body: JSON.stringify(data),
+  });
+  return response.json();
+}
+
+
+
+
+
