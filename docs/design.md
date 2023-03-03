@@ -21,3 +21,5 @@ Increase or Decrease Usability?
 I would like to increase my usability for my website. Currently, it is not very user friendly because I still have a lot of things to fix. For example, my routes, my css,
 executing my website layout, and the database all have issues that need to be fixed. My goal is to have it at a basic user-friendly level by the time I submit my final
 project.
+
+[Example Image](![jakobs-law-utility-nav](https://user-images.githubusercontent.com/123998259/222607660-af5f03ef-6a54-48f3-aeff-fd7f53accc88.jpg)
