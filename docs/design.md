@@ -23,3 +23,16 @@ executing my website layout, and the database all have issues that need to be fi
 project.
 
 [Example Image]![jakobs-law-utility-nav](https://user-images.githubusercontent.com/123998259/222607660-af5f03ef-6a54-48f3-aeff-fd7f53accc88.jpg)
+
+
+Typography
+==========
+I have chosen to only use one font. As stated above, in the heuristic changes paragraphs, I want to keep my design minimal.
+In that case, I will only be using one. I've decided on Sans serif - Louis George Cafe. Th reason I picked this specific font is because just adds a little bit more than just a regular sans serif - Arial font. 
+
+
+
+Color Pallete
+=============
+I decided to go with a red shade color pallete for my website. I chose this color because of the API I chose, the IUCN Red List of Threatened Species. I think
+using the red color pallete will provide a sense of urgency for the threatened species. The red will also fit well with the title and keeping it to one color but different shades, will provide a minimalistic feel.
