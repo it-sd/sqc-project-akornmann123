@@ -30,9 +30,11 @@ Typography
 I have chosen to only use one font. As stated above, in the heuristic changes paragraphs, I want to keep my design minimal.
 In that case, I will only be using one. I've decided on Sans serif - Louis George Cafe. Th reason I picked this specific font is because just adds a little bit more than just a regular sans serif - Arial font. 
 
-
+[Louis George Cafe]![Screenshot (48)](https://user-images.githubusercontent.com/123998259/222626017-4be92aa7-11c9-432d-a54c-a2dc315d78a7.png)
 
 Color Pallete
 =============
 I decided to go with a red shade color pallete for my website. I chose this color because of the API I chose, the IUCN Red List of Threatened Species. I think
 using the red color pallete will provide a sense of urgency for the threatened species. The red will also fit well with the title and keeping it to one color but different shades, will provide a minimalistic feel.
+
+[Color Pallete]![Screenshot (47)](https://user-images.githubusercontent.com/123998259/222626106-359422ff-8984-4824-845d-cdf287c50f40.png)
