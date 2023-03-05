@@ -22,5 +22,6 @@ threats table, and habitats table. The "Species" table will be the main table. A
 "Species" table because the tables are all based on the species. For example, the "country" table will represent the endagered species by country.
 
 ### Initial Designs ######
-![Sample Layout](C:\Users\Arian\OneDrive\Documents\CVTC\SQC\sqc-project-akornmann123\docs\SampleLayout.png)
-![Site Map](C:\Users\Arian\OneDrive\Documents\CVTC\SQC\sqc-project-akornmann123\docs\Sitemap.png)
+![SampleLayout](https://user-images.githubusercontent.com/123998259/222934603-9863f1f0-6d3d-41ab-90a8-7eea0a1538cb.png)
+![Sitemap](https://user-images.githubusercontent.com/123998259/222934612-0d4c8724-737f-4975-9fd5-6af89c3fed6b.png)
+
