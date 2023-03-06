@@ -1,16 +1,12 @@
 const express = require('express')
 const app = express()
 
-app.get('/health', (req, res) => {
-  res.status(200).end()
-  res.send('healthy')
+.get('/health', async function (req, res) {
+  const result = await healthQuery()
+  res.status(result.status).send(result.msg)
 })
 
-app.get('/', (req, res) => {
-
-})
-
-app.get('/about', (req, res) => {
+.get('/about', function (req, res) => {
   res.send('Arianne Kornmann')
   res.send('https://github.com/it-sd/sqc-project-akornmann123')
   res.send('The purpose of my site is to keep track on the threatened species around the world.
