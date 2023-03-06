@@ -1,19 +1,39 @@
+require('dotenv').config()
+
 const express = require('express')
-const app = express()
+const path = require('path')
+const assert = require('assert')
+
+const health = async function () {
+  let status = 200
+  let msg = 'healthy'
+  
+  if (result === undefined || result.length === 0) {
+    status = 500
+    msg = 'unhealthy'
+  }
+  return { status, msg }
+}
+
+express()
+  .use(express.static(path.join(__dirname, 'public/')))
+  .use(express.json())
+  .use(express.urlencoded({ extended: true }))
+  .set('views', path.join(__dirname, 'views'))
+  .set('view engine', 'ejs')
+  .get('/', function (req, res) {
+    res.render('pages/index')
+})
 
 .get('/health', async function (req, res) {
-  const result = await healthQuery()
+  const result = await health()
   res.status(result.status).send(result.msg)
 })
 
 .get('/about', function (req, res) => {
-  res.send('Arianne Kornmann')
-  res.send('https://github.com/it-sd/sqc-project-akornmann123')
-  res.send('The purpose of my site is to keep track on the threatened species around the world.
-           + 'On this site, you can find different aspects of the threatened species.'
-           + 'For example, they can be categorized by country, habitat, threats, and individual species.')
+  res.render('pages/about')
 })
-  
+
 // Add other routes
 
 fetch("schema.sql")
