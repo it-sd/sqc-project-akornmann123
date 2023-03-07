@@ -56,6 +56,9 @@ async function postData(url = "", data = {}) {
   return response.json();
 }
 
+.get(function (req, res) => {
+  res.render('/api/v3/country/getspecies/:country?token='YOUR TOKEN'')
+})
 
 
 
